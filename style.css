@@ -6,12 +6,18 @@
 body {
     font-family: sans-serif;
 }
+/* site header */
+.site-header {
+    background-color: #ccc;
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 /*site navigation*/
 .site-navigation {
-    background-color: #ccc;
     display: flex;
-    height: auto;
     justify-content: space-between;
     padding: 10px 50px;
 }
@@ -65,9 +71,17 @@ body {
 }
 
 .navigation-footer ul {
+    width: 50%;
     display: flex;
     flex-direction: column;
     list-style: none;
+}
+
+.navigation-footer ul h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 7px;
+    text-transform: uppercase;
 }
 
 .navigation-footer ul li {
@@ -82,6 +96,10 @@ body {
     text-transform: capitalize;
     line-height: 1.5;
     width: max-content;
+}
+
+.navigation-footer li a:hover {
+    border-bottom: 2px solid;
 }
 
 .site-footer .form-contact {
