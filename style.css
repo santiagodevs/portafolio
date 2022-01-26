@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*site navigation*/
+.site-navigation {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid;
+    padding: 20px 50px;
+}
+
+/* menu navigation principal */
+.site-navigation ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.site-navigation ul li {
+    padding: 0px 10px;
+}
+
+.site-navigation li a {
+    color: black;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-navigation a:hover {
+    border-bottom: 2px solid;
+}
