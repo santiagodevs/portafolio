@@ -9,9 +9,17 @@ body {
 
 /*site navigation*/
 .site-navigation {
-    background-color: rgba(255, 255, 255, 1);
-    border-bottom: 1px solid;
-    padding: 20px 50px;
+    background-color: #ccc;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+/* site logo */
+.site-navigation .site-logo {
+    height: 50px;
+    width: 100%;
 }
 
 /* menu navigation principal */
@@ -32,8 +40,51 @@ body {
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
+    width: max-content;
 }
 
-.site-navigation a:hover {
+.site-navigation li a:hover {
     border-bottom: 2px solid;
+}
+
+/* site footer */
+.site-footer {
+    background-color: #ccc;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 50%;
+}
+
+.navigation-footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navigation-footer ul li {
+    padding: 0px 10px;
+}
+
+.navigation-footer li a {
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 1.5;
+    width: max-content;
+}
+
+.site-footer .form-contact {
+    padding: 20px 50px;
+    width: 50%;
 }
