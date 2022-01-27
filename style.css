@@ -62,7 +62,74 @@ body {
 .site-main {
     width: 70%;
     background-color: #ccc;
-    height: 100vh; 
+    height: auto; 
+}
+
+.site-main .main-title h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.site-main .main-post {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.site-main .main-autor {
+    display: flex;
+    margin-top: 50px;
+}
+
+.site-main .main-autor .image-autor {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.site-main .main-autor .info-autor {
+    margin-left: 50px;
+}
+
+
+.site-main .main-autor .info-autor h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.site-main .main-autor .info-autor p {
+    font-size: 0.9em;
+}
+
+.site-main .main-autor .info-autor h3,
+.site-main .main-autor .info-autor p {
+    margin: 15px 0px;
+    line-height: 1.6em;
+}
+
+.main-autor .info-autor .menu-social-autor {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+}
+
+.main-autor .info-autor .menu-social-autor li {
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.main-autor .info-autor .menu-social-autor li a {
+    color: black;
+    font-size: 0.8em;
+    text-decoration: none;
 }
 
 .content-sidebars {
